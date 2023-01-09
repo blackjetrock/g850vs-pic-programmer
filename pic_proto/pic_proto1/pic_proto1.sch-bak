@@ -255,7 +255,7 @@ F 1 "LED" V 5200 3100 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm" H 5450 2950 50  0001 C CNN
 F 3 "~" H 5450 2950 50  0001 C CNN
 	1    5450 2950
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small R2

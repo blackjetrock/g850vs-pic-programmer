@@ -127,7 +127,7 @@ L Device:C_Small C2
 U 1 1 5F183119
 P 2750 3550
 F 0 "C2" H 2842 3596 50  0000 L CNN
-F 1 "n27 or 10n" H 2842 3505 50  0000 L CNN
+F 1 "n27" H 2842 3505 50  0000 L CNN
 F 2 "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal" H 2750 3550 50  0001 C CNN
 F 3 "~" H 2750 3550 50  0001 C CNN
 	1    2750 3550
@@ -537,7 +537,7 @@ CLOCK
 Wire Wire Line
 	9700 5750 9950 5750
 $Comp
-L Microtan_65_CPU-cache:BC547 Q3
+L g850-pic-prog-rescue:BC547-Microtan_65_CPU-cache Q3
 U 1 1 5F21B5D1
 P 9800 2800
 F 0 "Q3" H 9990 2867 40  0000 L CNN
@@ -620,7 +620,7 @@ F 3 "~" H 9400 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Microtan_65_CPU-cache:BC547 Q1
+L g850-pic-prog-rescue:BC547-Microtan_65_CPU-cache Q1
 U 1 1 5F197F3A
 P 9150 5750
 F 0 "Q1" H 9340 5817 40  0000 L CNN
@@ -857,7 +857,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 6600 1500 6800
 $Comp
-L Microtan_exp:2N3906 Q2
+L g850-pic-prog-rescue:2N3906-Microtan_exp Q2
 U 1 1 5F336922
 P 9700 1150
 F 0 "Q2" V 10064 1150 40  0000 C CNN

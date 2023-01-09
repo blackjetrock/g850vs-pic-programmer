@@ -249,7 +249,7 @@ U 1 1 5F1962D8
 P 7400 3650
 F 0 "U2" H 7400 4731 50  0000 C CNN
 F 1 "PIC16F84-XXP" H 7400 4640 50  0000 C CNN
-F 2 "Package_DIP:DIP-18_W7.62mm" H 7400 3650 50  0001 C CIN
+F 2 "Socket:DIP_Socket-18_W4.3_W5.08_W7.62_W10.16_W10.9_3M_218-3341-00-0602J" H 7400 3650 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/30430c.pdf" H 7400 3650 50  0001 C CNN
 	1    7400 3650
 	1    0    0    -1  
@@ -537,7 +537,7 @@ CLOCK
 Wire Wire Line
 	9700 5750 9950 5750
 $Comp
-L Microtan_65_CPU-cache:BC547 Q3
+L g850-pic-prog-rescue:BC547-Microtan_65_CPU-cache Q3
 U 1 1 5F21B5D1
 P 9800 2800
 F 0 "Q3" H 9990 2867 40  0000 L CNN
@@ -620,7 +620,7 @@ F 3 "~" H 9400 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Microtan_65_CPU-cache:BC547 Q1
+L g850-pic-prog-rescue:BC547-Microtan_65_CPU-cache Q1
 U 1 1 5F197F3A
 P 9150 5750
 F 0 "Q1" H 9340 5817 40  0000 L CNN
@@ -857,7 +857,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 6600 1500 6800
 $Comp
-L Microtan_exp:2N3906 Q2
+L g850-pic-prog-rescue:2N3906-Microtan_exp Q2
 U 1 1 5F336922
 P 9700 1150
 F 0 "Q2" V 10064 1150 40  0000 C CNN
@@ -868,10 +868,10 @@ F 3 "" H 9700 1150 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0119
 U 1 1 5F35D117
 P 4400 4800
-F 0 "#PWR?" H 4400 4550 50  0001 C CNN
+F 0 "#PWR0119" H 4400 4550 50  0001 C CNN
 F 1 "GND" H 4405 4627 50  0000 C CNN
 F 2 "" H 4400 4800 50  0001 C CNN
 F 3 "" H 4400 4800 50  0001 C CNN

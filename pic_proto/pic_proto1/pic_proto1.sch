@@ -36,7 +36,7 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/35007b.pdf" H 4400 3350 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Microtan_65_CPU-cache:GND #PWR0101
+L pic_proto1-rescue:GND-Microtan_65_CPU-cache #PWR0101
 U 1 1 5F285E70
 P 4400 4750
 F 0 "#PWR0101" H 4400 4750 30  0001 C CNN
@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2750 3700 2750
 $Comp
-L Microtan_exp:XTAL X1
+L pic_proto1-rescue:XTAL-Microtan_exp X1
 U 1 1 5F28862C
 P 2500 2950
 F 0 "X1" H 2500 3232 60  0000 C CNN
@@ -155,7 +155,7 @@ Wire Wire Line
 	2100 3150 2100 3250
 Connection ~ 2100 3150
 $Comp
-L Microtan_65_CPU-cache:GND #PWR0104
+L pic_proto1-rescue:GND-Microtan_65_CPU-cache #PWR0104
 U 1 1 5F28B3EE
 P 2100 3650
 F 0 "#PWR0104" H 2100 3650 30  0001 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 2100 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Microtan_65_CPU-cache:GND #PWR0105
+L pic_proto1-rescue:GND-Microtan_65_CPU-cache #PWR0105
 U 1 1 5F28B927
 P 2750 3650
 F 0 "#PWR0105" H 2750 3650 30  0001 C CNN
